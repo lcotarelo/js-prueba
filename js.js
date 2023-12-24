@@ -1,8 +1,10 @@
-const numero1 = 12
-const numero2 = "20.2"
-const numero3 = 20
+// Object literal    
+const producto = {
+nombre : "Leandro",
+apellido : "Cotarelo",
+edad : 35,
+esgei : false,
+esbisesual : true
+}
 
-console.log(numero1 > numero2);
-console.log(numero3 > numero1);
-
-console.log(++numero1);
+console.log(producto);
